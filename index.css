@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 4%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2vw;
+}
+
+nav {
+    display: flex;
+    width: 70%; /* Adjusted */
+    justify-content: space-between;
+    align-items: center;
+    padding-inline-end: 2px;
+}
+
+nav img {
+    height: 70%;
+}
+
+.nav-link:hover {
+    color: #00ff6c;
+    cursor: pointer;
+}
+
+.Welcome {
+    width: 70%; /* Adjusted */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 6vw; /* Adjusted */
+    line-height: 1.1;
+    margin-top: 3%;
+}
+
+.para {
+    width: 35%; /* Adjusted */
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+    width: 16rem;
+    max-width: 16rem; /* Added */
+    height: 4vw; /* Adjusted */
+    align-items: center;
+    font-size: 2vw; /* Adjusted */
+    padding: 1vw; /* Adjusted */
+    font-weight: bold;
+    border: none;
+    border-radius: 36px;
+    margin-top: 2vw; /* Adjusted */
+}
+
+.button img {
+    background-color: black;
+    border-radius: 50%;
+    height: 3vw; /* Adjusted */
+    width: 3vw; /* Adjusted */
+    padding: 0.5vw; /* Adjusted */
+}
+
+.chain {
+    background: linear-gradient(to right, #feff00db, #00ff6c);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+main {
+    margin-top: 4%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top {
+    width: 70%; /* Adjusted */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top h1 {
+    font-size: 4vw; /* Adjusted */
+    font-weight: 600;
+}
+
+.top p {
+    font-size: 1.2vw; /* Adjusted */
+    font-weight: 500;
+}
+
+.images img {
+    height: 3vw; /* Adjusted */
+    margin-inline: 0.5vw; /* Adjusted */
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 3vw; /* Adjusted */
+    padding: 0.5vw; /* Adjusted */
+}
+.images{
+    display: flex;
+}
+
+.container {
+    width: 70%; /* Adjusted */
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap; /* Added */
+    justify-content: space-around;
+}
+
+.box {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 24%; /* Adjusted */
+    margin-bottom: 2%; /* Added */
+    display: flex;
+    flex-direction: column;
+}
+
+.bt {
+    display: flex;
+    padding-inline: 5%;
+    align-items: center;
+    padding-block: 4%;
+    gap: 4%;
+    width: 100%;
+}
+
+.bt > h1{
+    width: 80%;
+    overflow-wrap: break-word;
+
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.nd {
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-inline: 11%;
+    padding-block: 4%;
+}
+
+.lt {
+    display: flex;
+    gap: 1vw;
+    font-size: 1vw;
+    padding-inline: 5%;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: #ecebeb;
+    border: 1px solid black;
+}
+
+.exp-lg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3vw; /* Adjusted */
+    height: 3vw; /* Adjusted */
+}
+
+.lt img {
+    height: 60%;
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 17%;
+    background: linear-gradient(to right, #feff00db, #00ff6c);
+}
+
+.sub-head {
+    font-weight: 600;
+    font-size: 1.5vw; /* Adjusted */
+    text-align: center;
+    width: 47%;
+    margin-block: 7%;
+    display: flex;
+}
+
+.cont2 {
+    width: 70%; /* Adjusted */
+    margin-top: 1%;
+    display: flex;
+    flex-wrap: wrap; /* Added */
+    justify-content: space-around;
+}
+
+.box1 {
+    background-color: rgb(43 255 138 / 18%);
+}
+
+.box2 {
+    background: rgb(0 240 255 / 20%);
+}
+
+.box3 {
+    background-color: rgb(252 89 89 / 20%);
+}
+
+.box4 {
+    background-color: rgb(45 69 230 / 18%);
+}
+
+.pic3 {
+    background: url(./asset/box3img.png) center center / cover no-repeat;
+    height: 10vw; /* Adjusted */
+    width: 100%;
+}
+
+.pic1 {
+    background: url(./asset/box1image.png) center center / cover no-repeat;
+    height: 10vw; /* Adjusted */
+    width: 100%;
+}
+
+.pic2 {
+    background: url(./asset/box2img.png) center center / cover no-repeat;
+    height: 10vw; /* Adjusted */
+    width: 100%;
+}
+
+.pic4 {
+    background: url(./asset/box4img.png) center center / cover no-repeat;
+    height: 10vw; /* Adjusted */
+    width: 100%;
+}
+
+footer {
+    margin-top: 2%;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ft-br {
+    width: 50%; /* Adjusted */
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5%;
+}
+
+.f-lg {
+    width: 20%;
+}
+
+.copy {
+    padding: 1.5%;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1112px)
+{
+    .bt > h1{
+        font-size: 0.8em;
+    }
+}
+@media screen and (max-width: 772px) {
+    nav {
+        width: 100%;
+    }
+    .Welcome {
+        font-size: 8vw;
+    }
+    .para {
+        width: 90%;
+    }
+    .button {
+        font-size: 3vw;
+        height: 5vw;
+        padding: 2vw;
+    }
+    .button img {
+        height: 4vw;
+        width: 4vw;
+        padding: 0.5vw;
+    }
+    
+    .top h1 {
+        font-size: 6vw;
+    }
+    .top p {
+        font-size: 2vw;
+    }
+    .images img {
+        height: 5vw;
+        margin-inline: 1vw;
+        width: 5vw;
+        padding: 0.8vw
+    }
+    .box {
+        width: 70%;
+    }
+    .container{
+        justify-content: flex-start;
+    }
+    .cont2{
+        justify-content: flex-start;
+    }
+    .bt{
+        font-size: 3vw;
+        padding-block: 1vw;
+        padding-inline: 3v
+    }
+    .sub-head{
+        font-size: 3.5vw;
+        padding-block: 1vw;
+    }
+    .lt{
+        font-size: 2.5vw;
+        padding: 0vw;
+        border: 1px solid black;
+        padding-inline: 2vw;
+        padding-block: 0.5vw;
+        background-color: white;
+    }
+    .exp-lg{
+        height: 4vw;
+        width: 4vw;
+    }
+    .nd{
+        padding: 1vw;
+    }
+    
+    .pic3,
+    .pic1,
+    .pic2,
+    .pic4 {
+        height: 25vw;
+    }
+    .ft-br {
+        width: 60%;
+    }
+    .copy{
+        font-size: 2vw;
+    }
+}
