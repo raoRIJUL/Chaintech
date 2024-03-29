@@ -1,0 +1,477 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column; /* Content stacks vertically */
+    justify-content: center; /* Aligns content in the center of the header */
+    align-items: center;  /* Aligns content horizontally in the center of the header */
+    padding: 20px 0 4%; /* Padding for top, bottom, left/right */
+  }
+  
+  /* Navigation Styles */
+  nav ul {
+    list-style: none; /* Removes default bullet points from list items */
+    display: flex; /* Arranges list items in a horizontal row */
+    gap: 2vw; /* Spacing between list items */
+  }
+  
+  nav {
+    display: flex;
+    width: 70%; /* Adjusted width for navigation bar */
+    justify-content: space-between; /* Aligns elements on the left and right ends */
+    align-items: center; /* Vertically aligns content within the navigation bar */
+    padding-inline-end: 2px; /* Padding on the right side */
+  }
+  
+  nav img {
+    height: 70%; /* Sets the height of the navigation logo */
+  }
+  
+  .nav-link:hover {
+    color: #00ff6c; /* Changes link color on hover */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+  }
+  
+
+/* Welcome Section Styles */
+.Welcome {
+    width: 70%; /* Adjusted width for the welcome section */
+    display: flex;
+    flex-direction: column; /* Stacks content vertically */
+    justify-content: center; /* Aligns content in the center vertically */
+    align-items: center; /* Aligns content horizontally in the center */
+    font-weight: 800; /* Bold font weight */
+    font-size: 6vw; /* Adjusted font size for the welcome message */
+    line-height: 1.1; /* Sets line spacing for better readability */
+    margin-top: 3%; /* Margin from the top section */
+  }
+  
+  /* Paragraph Section Styles */
+  .para {
+    width: 35%; /* Adjusted width for the paragraph section */
+    text-align: center; /* Aligns text in the center */
+  }
+  
+  /* Button Styles */
+  .button {
+    display: flex;
+    justify-content: space-around; /* Distributes content with even spacing */
+    width: 16rem; /* Sets button width */
+    max-width: 16rem; /* Added: Sets a maximum width for responsiveness */
+    height: 4vw; /* Adjusted height for the button */
+    align-items: center; /* Aligns content within the button horizontally */
+    font-size: 2vw; /* Adjusted font size for the button text */
+    padding: 1vw; /* Adds padding around the button text */
+    font-weight: bold;
+    border: none; /* Removes button border */
+    border-radius: 36px; /* Creates rounded corners for the button */
+    margin-top: 2vw; /* Margin from the top section */
+  }
+  
+  .button img {
+    background-color: black; /* Sets background color for the arrow image */
+    border-radius: 50%; /* Creates a circular shape for the arrow image */
+    height: 3vw; /* Adjusted height for the arrow image */
+    width: 3vw; /* Adjusted width for the arrow image */
+    padding: 0.5vw; /* Adds padding around the arrow image */
+  }
+  
+  /* Class for styled text */
+  .chain {
+    background: linear-gradient(to right, #feff00db, #00ff6c); /* Creates a gradient background for the text */
+    -webkit-text-fill-color: transparent; /* Makes the text invisible and uses the background color instead */
+    -webkit-background-clip: text; /* Applies the background gradient to the text only (for WebKit browsers) */
+  }
+  
+
+/* Main Section Styles */
+main {
+    margin-top: 4%; /* Margin from the top section */
+    width: 100%; /* Stretches across the entire viewport */
+    display: flex; /* Arranges elements horizontally */
+    justify-content: center; /* Aligns elements in the center horizontally */
+    flex-direction: column; /* Stacks elements vertically on smaller screens */
+    align-items: center; /* Aligns elements horizontally in the center */
+  }
+  
+  /* Top Section Styles */
+  .top {
+    width: 70%; /* Adjusted width for the top section */
+    display: flex;
+    justify-content: space-between; /* Distributes content with even spacing between header and images */
+    align-items: center; /* Aligns content horizontally in the center */
+  }
+  
+  .top h1 {
+    font-size: 4vw; /* Adjusted font size for the heading */
+    font-weight: 600; /* Sets font weight for a bolder look */
+  }
+  
+  .top p {
+    font-size: 1.2vw; /* Adjusted font size for the paragraph */
+    font-weight: 500; /* Sets font weight for a medium weight */
+  }
+  
+  /* Images Section Styles */
+  .images {
+    display: flex; /* Arranges images horizontally in a row */
+  }
+  
+  .images img {
+    height: 3vw; /* Adjusted height for the images */
+    margin-inline: 0.5vw; /* Adds margin on the left and right sides of images */
+    border-radius: 50%; /* Creates rounded corners for the images */
+    border: 1px solid black; /* Adds a black border around the images */
+    width: 3vw; /* Adjusted width for the images */
+    padding: 0.5vw; /* Adds padding inside the images */
+  }
+  
+  /* Container Section Styles */
+  .container {
+    width: 70%; /* Adjusted width for the container section */
+    margin-top: 2%; /* Margin from the top section */
+    display: flex;
+    flex-wrap: wrap; /* Added: Allows elements to wrap onto multiple lines if needed */
+    justify-content: space-around; /* Distributes boxes with even spacing */
+  }
+  
+  /* Box Styles */
+  .box {
+    border: 2px solid black; /* Solid black border */
+    border-radius: 20px; /* Rounded corners */
+    width: 24%; /* Adjusted width for each box */
+    margin-bottom: 2%; /* Added: Margin from the bottom */
+    display: flex;
+    flex-direction: column; /* Stacks elements within the box vertically */
+  }
+  
+  .bt {
+    display: flex;
+    padding-inline: 5%; /* Padding on the left and right sides */
+    align-items: center; /* Aligns content horizontally in the center */
+    padding-block: 4%; /* Padding on the top and bottom sides */
+    gap: 4%; /* Spacing between elements within .bt */
+    width: 100%; /* Stretches the .bt section across the full width of the box */
+  }
+  
+
+/* Specific Styling for h1 inside .bt */
+.bt > h1 {
+    width: 80%; /* Sets the width of the h1 element to 80% of its container */
+    overflow-wrap: break-word; /* Allows long words to break onto multiple lines within the h1 element */
+  }
+  
+  /* Mid Section Styles */
+  .mid {
+    display: flex;
+    flex-direction: column; /* Stacks elements vertically */
+    justify-content: center; /* Aligns elements in the center vertically */
+    align-items: center; /* Aligns elements horizontally in the center */
+    border-top: 1px solid black; /* Adds a black border to the top */
+    border-bottom: 1px solid black; /* Adds a black border to the bottom */
+    width: 100%; /* Stretches the .mid section across the full width of the box */
+  }
+  
+  /* nd Section Styles */
+  .nd {
+    padding: 2px; /* Adds a small amount of padding */
+    display: flex;
+    align-items: center; /* Aligns elements horizontally in the center */
+    justify-content: flex-end; /* Aligns elements to the right end */
+    padding-inline: 11%; /* Padding on the left and right sides */
+    padding-block: 4%; /* Padding on the top and bottom sides */
+  }
+  
+  /* lt Section Styles */
+  .lt {
+    display: flex;
+    gap: 1vw; /* Spacing between elements within .lt */
+    font-size: 1vw; /* Adjusted font size for elements within .lt */
+    padding-inline: 5%; /* Padding on the left and right sides */
+    border-radius: 25px; /* Creates rounded corners */
+    justify-content: center; /* Aligns elements horizontally in the center */
+    align-items: center; /* Aligns elements vertically in the center */
+    font-weight: bold; /* Bold font weight */
+    background-color: #ecebeb; /* Light gray background color */
+    border: 1px solid black; /* Black solid border */
+  }
+  
+  /* exp-lg Image Styles */
+  .exp-lg {
+    display: flex;
+    align-items: center; /* Aligns content horizontally in the center */
+    justify-content: center; /* Aligns content vertically in the center */
+    width: 3vw; /* Adjusted width for the image */
+    height: 3vw; /* Adjusted height for the image */
+  }
+  
+/* Image Styles within .lt */
+.lt img {
+    height: 60%; /* Sets the height of the image to 60% of its container */
+    width: 60%; /* Sets the width of the image to 60% of its container */
+    border: 1px solid black; /* Black solid border */
+    border-radius: 50%; /* Creates a circular shape for the image */
+    padding: 17%; /* Adds padding around the image */
+    background: linear-gradient(to right, #feff00db, #00ff6c); /* Gradient background for the image */
+  }
+  
+  /* Subheading Styles */
+  .sub-head {
+    font-weight: 600; /* Bold font weight */
+    font-size: 1.5vw; /* Adjusted font size for the subheading */
+    text-align: center; /* Aligns text in the center */
+    width: 47%; /* Sets the width of the subheading */
+    margin-block: 7%; /* Margin on top and bottom */
+    display: flex; /* Arranges elements horizontally within .sub-head */
+  }
+  
+  /* Container 2 Styles */
+  .cont2 {
+    width: 70%; /* Adjusted width for container 2 */
+    margin-top: 1%; /* Margin from the top section */
+    display: flex;
+    flex-wrap: wrap; /* Added: Allows elements to wrap onto multiple lines if needed */
+    justify-content: space-around; /* Distributes boxes with even spacing */
+  }
+  
+  /* Box Styling Variations */
+  .box1 {
+    background-color: rgb(43 255 138 / 18%); /* Light green background with 18% opacity */
+  }
+  
+  .box2 {
+    background: rgb(0 240 255 / 20%); /* Light blue background with 20% opacity */
+  }
+  
+  .box3 {
+    background-color: rgb(252 89 89 / 20%); /* Light red background with 20% opacity */
+  }
+  
+  .box4 {
+    background-color: rgb(45 69 230 / 18%); /* Light purple background with 18% opacity */
+  }
+/* Image Backgrounds for Boxes */
+.pic3 {
+    background: url(./asset/box3img.png) center center / cover no-repeat; /* Sets a background image for box 3 using the ./asset/box3img.png file. Centered positioning and cover ensures the image fills the box */
+    height: 10vw; /* Adjusted height for the image */
+    width: 100%; /* Stretches the image across the full width of the box */
+  }
+  
+  .pic1 {
+    background: url(./asset/box1image.png) center center / cover no-repeat; /* Sets a background image for box 1 using the ./asset/box1image.png file. Centered positioning and cover ensures the image fills the box */
+    height: 10vw; /* Adjusted height for the image */
+    width: 100%; /* Stretches the image across the full width of the box */
+  }
+  
+  .pic2 {
+    background: url(./asset/box2img.png) center center / cover no-repeat; /* Sets a background image for box 2 using the ./asset/box2img.png file. Centered positioning and cover ensures the image fills the box */
+    height: 10vw; /* Adjusted height for the image */
+    width: 100%; /* Stretches the image across the full width of the box */
+  }
+  
+  .pic4 {
+    background: url(./asset/box4img.png) center center / cover no-repeat; /* Sets a background image for box 4 using the ./asset/box4img.png file. Centered positioning and cover ensures the image fills the box */
+    height: 10vw; /* Adjusted height for the image */
+    width: 100%; /* Stretches the image across the full width of the box */
+  }
+  
+  /* Footer Styles */
+  footer {
+    margin-top: 2%; /* Margin from the top section */
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 100%;
+    flex-direction: column; /* Stacks elements vertically */
+    align-items: center; /* Aligns elements horizontally in the center */
+    justify-content: center; /* Aligns elements vertically in the center */
+  }
+  
+  .ft-br {
+    width: 50%; /* Adjusted width for the bottom footer section */
+    border-bottom: 1px solid grey; /* Solid gray border on the bottom */
+    display: flex;
+    justify-content: center; /* Aligns elements horizontally in the center */
+    align-items: center; /* Aligns elements vertically in the center */
+    padding: 1.5%; /* Adds padding around the content within .ft-br */
+  }
+  
+  .f-lg {
+    width: 20%; /* Sets the width of the .f-lg element to 20% */
+  }
+  
+  .copy {
+    padding: 1.5%; /* Adds padding around the content within .copy */
+  }
+  
+/* Media Queries */
+/* Media Queries for Responsive Design */
+
+/* Up to 1112px Screens */
+@media screen and (max-width: 1112px) {
+    .bt > h1 {
+      font-size: 0.8em; /* Reduces font size of h1 elements within .bt for smaller screens */
+    }
+  }
+  
+  /* Up to 772px Screens */
+  @media screen and (max-width: 772px) {
+    /* Adjusts navigation width for smaller screens */
+    nav {
+      width: 100%;
+    }
+  
+    /* Adjusts font size of Welcome heading for smaller screens */
+    .Welcome {
+      font-size: 8vw;
+    }
+  
+    /* Adjusts width of paragraph element for smaller screens */
+    .para {
+      width: 90%;
+    }
+  
+    /* Styles button element for smaller screens */
+    .button {
+      font-size: 3vw;
+      height: 6vw;
+      padding: 2vw;
+      width: 25vw;
+    }
+  
+    /* Styles image within button element for smaller screens */
+    .button img {
+      height: 4vw;
+      width: 4vw;
+      padding: 0.5vw;
+    }
+  
+    /* Adjusts font size of h1 element within .top for smaller screens */
+    .top h1 {
+      font-size: 6vw;
+    }
+  
+    /* Adjusts font size of p element within .top for smaller screens */
+    .top p {
+      font-size: 2vw;
+    }
+  
+    /* Adjusts image size and margins within .images for smaller screens */
+    .images img {
+      height: 5vw;
+      margin-inline: 1vw;
+      width: 5vw;
+      padding: 0.8vw;
+    }
+  
+    /* Adjusts width of .box element for smaller screens */
+    .box {
+      width: 70%;
+    }
+  
+    /* Adjusts horizontal justification within .container for smaller screens */
+    .container {
+      justify-content: flex-start;
+    }
+  
+    /* Adjusts horizontal justification within .cont2 for smaller screens */
+    .cont2 {
+      justify-content: flex-start;
+    }
+  
+    /* Styles .bt element for smaller screens */
+    .bt {
+      font-size: 3vw;
+      padding-block: 1vw;
+      padding-inline: 3vw;
+    }
+  
+    /* Styles .sub-head element for smaller screens */
+    .sub-head {
+      font-size: 3.5vw;
+      padding-block: 1vw;
+    }
+  
+    /* Styles .lt element for smaller screens */
+    .lt {
+      font-size: 2.5vw;
+      padding: 0vw;
+      border: 1px solid black;
+      padding-inline: 2vw;
+      padding-block: 0.5vw;
+      background-color: white;
+    }
+  
+    /* Adjusts size of .exp-lg element for smaller screens */
+    .exp-lg {
+      height: 4vw;
+      width: 4vw;
+    }
+  
+    /* Adjusts padding of .nd element for smaller screens */
+    .nd {
+      padding: 1vw;
+    }
+  
+    /* Adjusts height of image classes for smaller screens */
+    .pic3,
+    .pic1,
+    .pic2,
+    .pic4 {
+      height: 25vw;
+    }
+  
+    /* Adjusts width of .ft-br element for smaller screens */
+    .ft-br {
+      width: 60%;
+    }
+  
+    /* Adjusts font size of .copy element for smaller screens */
+    .copy {
+      font-size: 2vw;
+    }
+  }
+  @media (max-width: 772px) {
+    /* Adjust styles for smaller screens (tablets and below) */
+    nav {
+      width: 100%; /* Make navigation bar full width */
+      flex-direction: column;
+      gap: 1vw; /* Wrap items onto multiple lines if needed */
+    }
+  
+    nav img {
+      width: 20%;   /* Consider setting a maximum width */
+    }
+    .wb-lg{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    ul{
+      width: 100%;
+      justify-content: space-around;
+      font-size: 2.5vw;
+      border-top: 1px solid #535252;
+      border-bottom: 1px solid #535252;
+      padding: 2vw;
+      margin-top: 1vw;
+    }
+  }
+  
+  @media (min-width: 772px) and (max-width: 1024px) {
+    /* Optional adjustments for medium screens (tablets to laptops) */
+    nav {
+      width: 80%; /* Adjust width as needed for medium screens */
+    }
+  }
+  
